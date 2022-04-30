@@ -9,6 +9,8 @@
     
     Sub MyMacro()
         Dim Str As String
+        
         #paste payload here
+        
         CreateObject("Wscript.Shell").Run Str
     End Sub
